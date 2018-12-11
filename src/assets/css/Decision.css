@@ -1,0 +1,30 @@
+@import url("imports/Animate.css");
+@import url("imports/font-awesome-4.7.0/css/font-awesome.min.css");
+
+.holder {
+    background: #FFFFFF;
+}
+
+p {
+    text-align: center;
+    padding: 30px 0;
+    color: gray;
+}
+
+.answer {
+    font-size: 5em;
+}
+
+.buttonWrapper {
+    padding: 20px 20px 20px 0;
+}
+
+button {
+    padding: 10px;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 3px;
+    color: #DB4C77;
+    font-weight: bold;
+    margin-right: 15px;
+}

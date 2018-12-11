@@ -1,0 +1,62 @@
+@import url("imports/Animate.css");
+@import url("imports/font-awesome-4.7.0/css/font-awesome.min.css");
+
+.holder {
+    background: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: #C8E7F5;
+    border-left: 5px solid #0671B7;
+    margin-bottom: 2px;
+    color: #3E5252;
+}
+
+p {
+    text-align: center;
+    padding: 30px 0;
+    color: gray;
+}
+
+input {
+    width: calc(100% - 40px);
+    border: 0;
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: #DB4C77;
+    color: #F9C6D7;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #F9C6D7;
+    opacity: 1; /* Firefox */
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #F9C6D7;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #F9C6D7;
+}
+
+.alert {
+    background: #FDF2CE;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+    margin-top: -20px;
+}
+
+i {
+    float: right;
+    cursor: pointer;
+}
